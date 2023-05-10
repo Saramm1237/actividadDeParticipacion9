@@ -6,7 +6,6 @@ class AnalizadorLogs:
         self.nombre_archivo = nombre_archivo
 
     def procesar_logs(self) -> Dict[str, Any]:
-        # Inicializar variables acumuladoras
         num_solicitudes_total = 0
         solicitudes_por_metodo = {}
         solicitudes_por_respuesta = {}
